@@ -2,6 +2,17 @@
     
     border-top: none !important;
 }
+@media (max-width: 991px) {
+    .header-desktop {
+        height: 70px !important;
+    }
+}
+@media (max-width: 991px) {
+    .header-button {
+        margin-top: 0px !important;
+    }
+}
+
 /*------------------------------------------------------------------
 [Master Stylesheet]
 
