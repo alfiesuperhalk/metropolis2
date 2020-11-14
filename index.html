@@ -1,568 +1,521 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- Required meta tags-->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Safe Investments with Peace Of Mind" />
+        <meta name="author" content="Metropolis" />
+        <meta name="keywords" content="Safe Investments with Peace Of Mind" />
 
-<head>
-    <!-- Required meta tags-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Safe Investments with Peace Of Mind">
-    <meta name="author" content="Metropolis">
-    <meta name="keywords" content="Safe Investments with Peace Of Mind">
+        <!-- Title Page-->
+        <link rel="icon" href="images/icon/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon-precomposed" href="images/icon/apple-touch-icon-120x120.png" />
+        <title>METROPOLIS</title>
 
-    <!-- Title Page-->
-    <link rel="icon" href="images/icon/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon-precomposed" href="images/icon/apple-touch-icon-120x120.png" />
-    <title>METROPOLIS</title>
+        <!-- Fontfaces CSS-->
+        <link href="css/font-face.css" rel="stylesheet" media="all" />
+        <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all" />
+        <link href="vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all" />
+        <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all" />
 
-    <!-- Fontfaces CSS-->
-    <link href="css/font-face.css" rel="stylesheet" media="all">
-    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
-    <link href="vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
-    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+        <!-- Bootstrap CSS-->
+        <link href="vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all" />
 
-    <!-- Bootstrap CSS-->
-    <link href="vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+        <!-- Vendor CSS-->
+        <link href="vendor/animsition/animsition.min.css" rel="stylesheet" media="all" />
+        <link href="vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all" />
+        <link href="vendor/wow/animate.css" rel="stylesheet" media="all" />
+        <link href="vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all" />
+        <link href="vendor/slick/slick.css" rel="stylesheet" media="all" />
+        <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all" />
+        <link href="vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all" />
 
-    <!-- Vendor CSS-->
-    <link href="vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
-    <link href="vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
-    <link href="vendor/wow/animate.css" rel="stylesheet" media="all">
-    <link href="vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
-    <link href="vendor/slick/slick.css" rel="stylesheet" media="all">
-    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
-    <link href="vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
+        <!-- Main CSS-->
+        <link href="css/theme.css" rel="stylesheet" media="all" />
+    </head>
 
-    <!-- Main CSS-->
-    <link href="css/theme.css" rel="stylesheet" media="all">
-</head>
+    <body class="animsition">
+        <div class="page-wrapper">
+            <!-- HEADER MOBILE-->
+            <header class="header-mobile d-block d-lg-none">
+                <div class="header-mobile__bar">
+                    <div class="container-fluid">
+                        <div class="header-mobile-inner">
+                            <a class="logo" href="index.html">
+                                <img src="images/icon/logo.png" alt="Metropolis International" />
+                            </a>
+                            <button class="hamburger hamburger--slider" type="button">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar-mobile">
+                    <div class="container-fluid">
+                        <ul class="navbar-mobile__list list-unstyled">
+                            <li class="active has-sub">
+                                <a class="js-arrow" href="index.html"> <i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                            </li>
+                            <li class="active has-sub">
+                                <a class="js-arrow" href="index.html"> <i class="fa fa-trophy"></i>Invest Now</a>
+                            </li>
+                            <li class="active has-sub">
+                                <a class="js-arrow" href="index.html"> <i class="fa fa-shopping-cart"></i>Withdraw</a>
+                            </li>
+                            <li class="active has-sub">
+                                <a class="js-arrow" href="index.html"> <i class="fas fa-users"></i>Affiliates</a>
+                            </li>
+                            <li class="active has-sub" data-toggle="modal" data-target="#mediumModal">
+                                <a class="js-arrow" href="#mediumModal"> <i class="fa fa-info-circle"></i>About Us</a>
+                            </li>
+                            <li class="active has-sub" data-toggle="modal" data-target="#mediumModal2">
+                                <a class="js-arrow" href="#mediumModal"> <i class="fa fa-info-circle"></i>Channels & Groups</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <!-- END HEADER MOBILE-->
 
-<body class="animsition">
-    <div class="page-wrapper">
-        <!-- HEADER MOBILE-->
-        <header class="header-mobile d-block d-lg-none">
-            <div class="header-mobile__bar">
-                <div class="container-fluid">
-                    <div class="header-mobile-inner">
-                        <a class="logo" href="index.html">
-                            <img src="images/icon/logo.png" alt="Metropolis International" />
-                        </a>
-                        <button class="hamburger hamburger--slider" type="button">
-                            <span class="hamburger-box">
-                                <span class="hamburger-inner"></span>
-                            </span>
-                        </button>
+            <!-- MENU SIDEBAR-->
+            <aside class="menu-sidebar d-none d-lg-block">
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/icon/logo.png" alt="Metropolis International" />
+                    </a>
+                </div>
+                <div class="menu-sidebar__content js-scrollbar1">
+                    <nav class="navbar-sidebar">
+                        <ul class="list-unstyled navbar__list">
+                            <li class="active has-sub">
+                                <a class="js-arrow" href="index.html"> <i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                            </li>
+                            <li class="active has-sub">
+                                <a class="js-arrow" href="index.html"> <i class="fa fa-trophy"></i>Invest Now</a>
+                            </li>
+                            <li class="active has-sub">
+                                <a class="js-arrow" href="index.html"> <i class="fa fa-shopping-cart"></i>Withdraw</a>
+                            </li>
+                            <li class="active has-sub">
+                                <a class="js-arrow" href="index.html"> <i class="fas fa-users"></i>Affiliates</a>
+                            </li>
+                            <li class="active has-sub" data-toggle="modal" data-target="#mediumModal">
+                                <a class="js-arrow" href="#mediumModal"> <i class="fa fa-info-circle"></i>About Us</a>
+                            </li>
+                            <li class="active has-sub" data-toggle="modal" data-target="#mediumModal2">
+                                <a class="js-arrow" href="#mediumModal"> <i class="fa fa-info-circle"></i>Channels & Groups</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </aside>
+            <!-- END MENU SIDEBAR-->
+
+            <!-- modal medium -->
+            <div class="modal fade" id="mediumModal" tabindex="-1" role="dialog" aria-labelledby="mediumModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="mediumModalLabel">ABOUT US</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p><i class="fas fa-users"></i> SJØNNA Nezalezhnasti Ave, 13 - 28A Minsk, Belarus, 220141</p>
+                            <p><i class="fas fa-users"></i> Email: email@gmail.com</p>
+                            <p><i class="fas fa-users"></i> Mobile:+375 29 319-53-98.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
                     </div>
                 </div>
             </div>
-            <nav class="navbar-mobile">
-                <div class="container-fluid">
-                    <ul class="navbar-mobile__list list-unstyled">
-                        <li class="active has-sub">
-                            <a class="js-arrow" href="index.html">
-                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
-                        </li>
-                        <li class="active has-sub">
-                            <a class="js-arrow" href="index.html">
-                                <i class="fa fa-trophy"></i>Invest Now</a>
-                        </li>
-                        <li class="active has-sub">
-                            <a class="js-arrow" href="index.html">
-                                <i class="fa fa-shopping-cart"></i>Withdraw</a>
-                        </li>
-                        <li class="active has-sub">
-                            <a class="js-arrow" href="index.html">
-                                <i class="fas fa-users"></i>Affiliates</a>
-                        </li>
-                        <li class="active has-sub"  data-toggle="modal" data-target="#mediumModal">
-                            <a class="js-arrow" href="#mediumModal">
-                                <i class="fa fa-info-circle"></i>About Us</a>
-                        </li>
-                        <li class="active has-sub"  data-toggle="modal" data-target="#mediumModal2">
-                            <a class="js-arrow" href="#mediumModal">
-                                <i class="fa fa-info-circle"></i>Channels & Groups</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <!-- END HEADER MOBILE-->
-
-        <!-- MENU SIDEBAR-->
-        <aside class="menu-sidebar d-none d-lg-block">
-            <div class="logo">
-                <a href="#">
-                    <img src="images/icon/logo.png" alt="Metropolis International" />
-                </a>
-            </div>
-            <div class="menu-sidebar__content js-scrollbar1">
-                <nav class="navbar-sidebar">
-                    <ul class="list-unstyled navbar__list">
-                        <li class="active has-sub">
-                            <a class="js-arrow" href="index.html">
-                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
-                        </li>
-                        <li class="active has-sub">
-                            <a class="js-arrow" href="index.html">
-                                <i class="fa fa-trophy"></i>Invest Now</a>
-                        </li>
-                        <li class="active has-sub">
-                            <a class="js-arrow" href="index.html">
-                                <i class="fa fa-shopping-cart"></i>Withdraw</a>
-                        </li>
-                        <li class="active has-sub">
-                            <a class="js-arrow" href="index.html">
-                                <i class="fas fa-users"></i>Affiliates</a>
-                        </li>
-                        <li class="active has-sub"  data-toggle="modal" data-target="#mediumModal">
-                            <a class="js-arrow" href="#mediumModal">
-                                <i class="fa fa-info-circle"></i>About Us</a>
-                        </li>
-                        <li class="active has-sub"  data-toggle="modal" data-target="#mediumModal2">
-                            <a class="js-arrow" href="#mediumModal">
-                                <i class="fa fa-info-circle"></i>Channels & Groups</a>
-                        </li>
-                        
-                    </ul>
-                </nav>
-            </div>
-        </aside>
-        <!-- END MENU SIDEBAR-->
-
-        <!-- modal medium -->
-			<div class="modal fade" id="mediumModal" tabindex="-1" role="dialog" aria-labelledby="mediumModalLabel" aria-hidden="true">
-				<div class="modal-dialog modal-lg" role="document">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h5 class="modal-title" id="mediumModalLabel">ABOUT US</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
-							</button>
-						</div>
-						<div class="modal-body">
-                            <p> <i class="fas fa-users"></i> SJØNNA Nezalezhnasti Ave, 13 - 28A Minsk, Belarus, 220141</p> 
-                            <p> <i class="fas fa-users"></i> Email: email@gmail.com </p>
-                            <p> <i class="fas fa-users"></i>  Mobile:+375 29 319-53-98. </p>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						</div>
-					</div>
-				</div>
-			</div>
             <!-- end modal medium -->
 
-             <!-- modal medium -->
-			<div class="modal fade" id="mediumModal2" tabindex="-1" role="dialog" aria-labelledby="mediumModal2Label" aria-hidden="true">
-				<div class="modal-dialog modal-lg" role="document">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h5 class="modal-title" id="mediumModalLabel2">Our Channels & Groups</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
-							</button>
-						</div>
-						<div class="modal-body">
+            <!-- modal medium -->
+            <div class="modal fade" id="mediumModal2" tabindex="-1" role="dialog" aria-labelledby="mediumModal2Label" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="mediumModalLabel2">Our Channels & Groups</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
                             <div class="row">
                                 <div class="col-3 col-lg-3">
                                     <div class="mx-auto d-block">
-                                        <img class="rounded-circle mx-auto d-block" src="images/icon/telegramEN.png" alt="TelegramEN">
+                                        <img class="rounded-circle mx-auto d-block" src="images/icon/telegramEN.png" alt="TelegramEN" />
                                         <div class="location text-sm-center">Group EN</div>
                                     </div>
-                                  </div>
-                                  <div class="col-3 col-lg-3">
+                                </div>
+                                <div class="col-3 col-lg-3">
                                     <div class="mx-auto d-block">
-                                        <img class="rounded-circle mx-auto d-block" src="images/icon/telegramSP.png" alt="TelegramSP">
+                                        <img class="rounded-circle mx-auto d-block" src="images/icon/telegramSP.png" alt="TelegramSP" />
                                         <div class="location text-sm-center">Group SP</div>
                                     </div>
-                                  </div>
-                                  <div class="col-3 col-lg-3">
+                                </div>
+                                <div class="col-3 col-lg-3">
                                     <div class="mx-auto d-block">
-                                        <img class="rounded-circle mx-auto d-block" src="images/icon/telegramRU.png" alt="TelegramRU">
+                                        <img class="rounded-circle mx-auto d-block" src="images/icon/telegramRU.png" alt="TelegramRU" />
                                         <div class="location text-sm-center">Group RU</div>
                                     </div>
-                                  </div>
-                                  <div class="col-3 col-lg-3">
+                                </div>
+                                <div class="col-3 col-lg-3">
                                     <div class="mx-auto d-block">
-                                        <img class="rounded-circle mx-auto d-block" src="images/icon/telegramCN.png" alt="TelegramCN">
+                                        <img class="rounded-circle mx-auto d-block" src="images/icon/telegramCN.png" alt="TelegramCN" />
                                         <div class="location text-sm-center">Group FA</div>
                                     </div>
-                                  </div>
-                               
-                            
-                            
-                            </div>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						</div>
-					</div>
-				</div>
-			</div>
-            <!-- end modal medium -->
-            
-
-        <!-- PAGE CONTAINER-->
-        <div class="page-container">
-            <!-- HEADER DESKTOP-->
-            <header class="header-desktop">
-                <div class="section__content section__content--p30">
-                    <div class="container-fluid">
-                        <div class="header-wrap">
-                            <div class="header-button">
-                                <div class="noti-wrap">
-                                    <div class="noti__item js-item-menu">
-                                        <i class="zmdi zmdi-mail-send"></i>
-                                        <span class="quantity">1</span>
-                                        <div class="mess-dropdown js-dropdown">
-                                           
-                                            <div class="mess__item">
-                                                <div class="image img-cir img-40">
-                                                    <img src="images/icon/avatar-06.jpg" alt="Michelle Moreno" />
-                                                </div>
-                                                <div class="content">
-                                                    <h6>Michelle Moreno</h6>
-                                                    <p>Have sent a photo</p>
-                                                    <span class="time">3 min ago</span>
-                                                </div>
-                                            </div>
-                                            <div class="mess__item">
-                                                <div class="image img-cir img-40">
-                                                    <img src="images/icon/avatar-04.jpg" alt="Diane Myers" />
-                                                </div>
-                                                <div class="content">
-                                                    <h6>Diane Myers</h6>
-                                                    <p>You are now connected on message</p>
-                                                    <span class="time">Yesterday</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>                                   
-                                </div>
-                                <div class="noti__item js-item-menu">
-                                    <p>TFxbVjbibrv3oWWdt8SAiaiq629NKdowty</p>
-                                   
-                                    
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
-            <!-- HEADER DESKTOP-->
-
-            <!-- MAIN CONTENT-->
-            <div class="main-content">
-                <div class="section__content section__content--p30">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="overview-wrap">
-                                    <h2 class="title-1">overview</h2>
-                                </div>
-                                <p class="card-text statsWrap"><i class="fa fa-bell" style="color:#fc466b"></i> You have to be logged in via Tronlink Wallet to see realtime smart contract data</p>
-                            </div>
-                        </div>
-                        <div class="row  statsWrap statistics INFO">
-                            <div class="col-6 col-lg-2">
-                                <div class="overview-item overview-item--c1">
-                                    <div class="overview__inner">
-                                        <div class="overview-box clearfix">
-                                            <div class="text">
-                                                <h2 id="ContractBalance" data-nlast="240235"><b>240,235</b></h2>
-                                                <span>Contract Balance</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>   
-                            </div>
-                            <div class="col-6 col-lg-2">
-                                <div class="overview-item overview-item--c2">
-                                    <div class="overview__inner">
-                                        <div class="overview-box clearfix">
-                                            <div class="text">
-                                                <h2 id="ContractPercent">2</h2>
-                                                <span>Contract Profit</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>   
-                            </div>
-                            <div class="col-6 col-lg-2">
-                                <div class="overview-item overview-item--c3">
-                                    <div class="overview__inner">
-                                        <div class="overview-box clearfix">
-                                            <div class="text">
-                                                <h2 id="ContractInvested" data-nlast="267276">267,276</h2>
-                                                <span>Total Invested</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>   
-                            </div>
-                            <div class="col-6 col-lg-2">
-                                <div class="overview-item overview-item--c4">
-                                    <div class="overview__inner">
-                                        <div class="overview-box clearfix">
-                                            <div class="text">
-                                                <h2  id="ContractWithdrawn" data-nlast="11008">11,008</h2>
-                                                <span>Total Withdrawals</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>   
-                            </div>
-                            <div class="col-6 col-lg-2">
-                                <div class="overview-item overview-item--c1">
-                                    <div class="overview__inner">
-                                        <div class="overview-box clearfix">
-                                            <div class="text">
-                                                <h2 id="ContractUsers" >1,288</h2>
-                                                <span>Number Of Users</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>   
-                            </div>
-                            <div class="col-6 col-lg-2">
-                                <div class="overview-item overview-item--c3">
-                                    <div class="overview__inner">
-                                        <div class="overview-box clearfix">
-                                            <div class="text">
-                                                <h2 id="ContractReferals">37,580</h2>
-                                                <span>Affiliate Rewards</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>   
-                            </div>
-                        </div>
-
-
-
-
-                       
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="au-card recent-report">
-                                    <div class="au-card-inner">
-                                        <h3 class="title-2">Investment Conditions</h3>
-                                        <br/>
-                                        <ul>
-                                          <li>
-                                           Min. Deposit of only <b style="color:#fc466b">100</b> TRX.
-                                          </li>
-                                          <li>Base Profit of <b style="color:#fc466b">5%</b>.</li>
-                                          <li><b style="color:#fc466b" >1%</b> Bonus for every <b style="color:#fc466b">1.5Mio</b> Contract Balance. <b style="color:#fc466b">Max</b> of 15% to ensure contract longevity.</li>
-                                          <li>Platform Fee of only <b style="color:#fc466b">15%</b>. Our purpose of being is to protect average investors. Not profit from them.</li>
-                                          <li><b style="color:#fc466b">Withdrawals - Project Protection from early withdrawals</b>
-                                            <ul class="vue-list-inner">
-                                              <li>Contract deducts 10% from your potential profit every withdrawals made before investment matures. This discourages daily withdrawals of investment has not matured. Making Investors realize promised ROI.</li>
-                                              <li>Example: You invested 100 TRX. Potential Take-Aways (Returns) is 200 TRX. However, you withdraw before it gets to 200 TRX. The system will deduct 10% every withdrawal but will keep your Invested amount secured and untouched.</li>
-                                            </ul>
-                                          </li>
-                                          <li><b style="color:#fc466b">Whale Protection</b>
-                                            <ul class="vue-list-inner">
-                                              <li>Maximum Deposit from 1 account can't exceed 10% of the contract balance before 10 000 000. No restrictions before 10 000 000.</li>
-                                            </ul>
-                                          </li>
-                                        </ul>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="au-card chart-percent-card">
-                                    <div class="au-card-inner">
-                                        <h3 class="title-2 tm-b-5">Platform Fee Distribution</h3>
-                                        <div class="row no-gutters">
-                                            <div class="col-xl-6">
-                                                <div class="chart-note-wrap">
-                                                    <div class="chart-note mr-0 d-block">
-                                                        <span class="dot dot--blue"></span>
-                                                        <span>Network & Development</span>
-                                                    </div>
-                                                    <div class="chart-note mr-0 d-block">
-                                                        <span class="dot dot--red"></span>
-                                                        <span>Services</span>
-                                                    </div>
-                                                    <div class="chart-note mr-0 d-block">
-                                                        <span class="dot dot--orange"></span>
-                                                        <span>Marketing</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-6">
-                                                <div class="percent-chart">
-                                                    <canvas id="percent-chart"></canvas>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <p>Explantions here.</p>
                                 </div>
                             </div>
                         </div>
-                       
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="au-card au-card--no-shadow au-card--no-pad m-b-40">
-                                    <div class="au-card-title" style="background-image: -webkit-linear-gradient(90deg, #3f5efb 0%, #fc466b 100%);">
-                                        <h3>
-                                            <i class="fa fa-bell"></i>Investments</h3>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text"><i class="fa fa-bell" style="color:#fc466b"></i> To make a deposit, you should install TronLink Chrome extension or use a DApp browser in a TronLink mobile app.</p>
-                                        <br/>
-
-                                        <p class="card-text">Wallet Details:</p>
-                                        <p class="card-text">Wallet Balance:</p>
-
-                                        <form action="" method="post" novalidate="novalidate">
-                                            <div class="form-group">
-                                              
-                                                <input id="cc-pament" name="cc-payment" type="text" class="form-control" aria-required="true" aria-invalid="false" value="100.00">
-                                                <p class="card-text">Minimum: 10 TRX. Maximum: 0 TRX.</p>
-                                            </div>
-
-                                            <form action="" method="post" novalidate="novalidate">
-                                                <div class="form-group">
-                                                  
-                                                    <input id="cc-pament" name="cc-payment" type="text" class="form-control" aria-required="true" aria-invalid="false" value="Your Referrer">
-                                                    <p class="card-text">You must be logged in to view referror.</p>
-                                                </div>
-                                           
-                                            
-                                           
-                                            <div>
-                                                <button id="payment-button" type="submit" class="btn btn-lg btn-info btn-block">
-                                                    <i class="fa fa-lock fa-lg"></i>&nbsp;
-                                                    <span id="payment-button-amount">Invest Now</span>
-                                                    <span id="payment-button-sending" style="display:none;">Sending…</span>
-                                                </button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                     <div class="card-body au-message__footer">
-                                        <button type="button" class="btn btn-primary">
-                                            <i class="fa fa-plus-square"></i>&nbsp; 2 TRX / Day</button>
-                                        <button type="button" class="btn btn-secondary">
-                                            <i class="fa fa-superscript"></i>&nbsp; 200% Max </button>
-                                        <button type="button" class="btn btn-success">
-                                            <i class="fa fa-gift"></i>&nbsp; 45 Days</button>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-lg-6">
-                                <div class="au-card au-card--no-shadow au-card--no-pad m-b-40">
-                                    <div class="au-card-title" style="background-image:url('images/bg-title-02.jpg');">
-                                        <div class="bg-overlay bg-overlay--blue"></div>
-                                        <h3>
-                                            <i class="zmdi zmdi-comment-text"></i>My Dashboard</h3>
-                                    </div>
-
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <div class="form-group">
-                                                    <label for="cc-exp" class="control-label mb-1">Active Deposits</label>
-                                                </div>
-                                            </div>
-                                            <div class="col-6" style="text-align:right">
-                                                <label for="x_card_code" class="control-label mb-1" ></label>Invested</label>
-                                            </div>
-                                        </div>
-                                        <div class="progress mb-3">
-											<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75"
-											 aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-                                        <p class="card-text">Profits</p>
-                                        <p class="card-text">Daily Profit</p>
-                                        <p class="card-text">Paid Out</p>
-                                        <br>
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <div class="form-group">
-                                                    <label for="cc-exp" class="control-label mb-1">Remaining Profit</label>
-                                                </div>
-                                            </div>
-                                            <div class="col-6" style="text-align:right">
-                                                <label for="x_card_code" class="control-label mb-1" ></label>Amount</label>
-                                            </div>
-                                        </div>
-                                        <div class="progress mb-3">
-											<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25"
-											 aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-                                        <p class="card-text">Remaining Profit</p>
-                                        <p class="card-text">Affiliate</p>
-                                        <p class="card-text">Total Amount</p>
-                                    </div>
-
-                                     <div class="card-body au-message__footer">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <button type="button" class="btn btn-danger">
-                                                    <i class="fa fa-star"></i>&nbsp; Withdraw  <br>
-                                                    <small>Min. 1 TRX</small></button>            
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <button type="button" class="btn btn-success">
-                                                    <i class="fa fa-bell"></i>&nbsp; Re-Invest  <br>
-                                                    <small>Min. 10 TRX</small></button>            
-                                        </div>
-                                    </div>
-                                    </div>
-                                    </div>
-                            </div>
-                            </div>
-                        </div>    
-                        
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="copyright">
-                                    <p>Copyright © 2020 <a href="https://colorlib.com">Metropolis</a>. All Rights Reserved.SJØNNA Nezalezhnasti Ave, 13 - 28A Minsk, Belarus, 220141 +375 29 319-53-98</p>
-                                </div>
-                            </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                         </div>
-                    
-                    
                     </div>
                 </div>
             </div>
-            <!-- END MAIN CONTENT-->
-            <!-- END PAGE CONTAINER-->
+            <!-- end modal medium -->
+
+            <!-- PAGE CONTAINER-->
+            <div class="page-container">
+                <!-- HEADER DESKTOP-->
+                <header class="header-desktop">
+                    <div class="section__content section__content--p30">
+                        <div class="container-fluid">
+                            <div class="header-wrap">
+                                <div class="header-button">
+                                    <div class="noti-wrap">
+                                        <div class="noti__item js-item-menu">
+                                            <i class="zmdi zmdi-mail-send"></i>
+                                            <span class="quantity">1</span>
+                                            <div class="mess-dropdown js-dropdown">
+                                                <div class="mess__item">
+                                                    <div class="image img-cir img-40">
+                                                        <img src="images/icon/avatar-06.jpg" alt="Michelle Moreno" />
+                                                    </div>
+                                                    <div class="content">
+                                                        <h6>Michelle Moreno</h6>
+                                                        <p>Have sent a photo</p>
+                                                        <span class="time">3 min ago</span>
+                                                    </div>
+                                                </div>
+                                                <div class="mess__item">
+                                                    <div class="image img-cir img-40">
+                                                        <img src="images/icon/avatar-04.jpg" alt="Diane Myers" />
+                                                    </div>
+                                                    <div class="content">
+                                                        <h6>Diane Myers</h6>
+                                                        <p>You are now connected on message</p>
+                                                        <span class="time">Yesterday</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="noti__item js-item-menu">
+                                        <p>TFxbVjbibrv3oWWdt8SAiaiq629NKdowty</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <!-- HEADER DESKTOP-->
+
+                <!-- MAIN CONTENT-->
+                <div class="main-content">
+                    <div class="section__content section__content--p30">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="overview-wrap">
+                                        <h2 class="title-1">overview</h2>
+                                    </div>
+                                    <p class="card-text statsWrap"><i class="fa fa-bell" style="color: #fc466b;"></i> You have to be logged in via Tronlink Wallet to see realtime smart contract data</p>
+                                </div>
+                            </div>
+                            <div class="row statsWrap statistics INFO">
+                                <div class="col-6 col-lg-2">
+                                    <div class="overview-item overview-item--c1">
+                                        <div class="overview__inner">
+                                            <div class="overview-box clearfix">
+                                                <div class="text">
+                                                    <h2 id="ContractBalance" data-nlast="240235"><b>240,235</b></h2>
+                                                    <span>Contract Balance</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-2">
+                                    <div class="overview-item overview-item--c2">
+                                        <div class="overview__inner">
+                                            <div class="overview-box clearfix">
+                                                <div class="text">
+                                                    <h2 id="ContractPercent">2</h2>
+                                                    <span>Contract Profit</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-2">
+                                    <div class="overview-item overview-item--c3">
+                                        <div class="overview__inner">
+                                            <div class="overview-box clearfix">
+                                                <div class="text">
+                                                    <h2 id="ContractInvested" data-nlast="267276">267,276</h2>
+                                                    <span>Total Invested</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-2">
+                                    <div class="overview-item overview-item--c4">
+                                        <div class="overview__inner">
+                                            <div class="overview-box clearfix">
+                                                <div class="text">
+                                                    <h2 id="ContractWithdrawn" data-nlast="11008">11,008</h2>
+                                                    <span>Total Withdrawals</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-2">
+                                    <div class="overview-item overview-item--c1">
+                                        <div class="overview__inner">
+                                            <div class="overview-box clearfix">
+                                                <div class="text">
+                                                    <h2 id="ContractUsers">1,288</h2>
+                                                    <span>Number Of Users</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-2">
+                                    <div class="overview-item overview-item--c3">
+                                        <div class="overview__inner">
+                                            <div class="overview-box clearfix">
+                                                <div class="text">
+                                                    <h2 id="ContractReferals">37,580</h2>
+                                                    <span>Affiliate Rewards</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="au-card recent-report">
+                                        <div class="au-card-inner">
+                                            <h3 class="title-2">Investment Conditions</h3>
+                                            <br />
+                                            <ul>
+                                                <li>Min. Deposit of only <b style="color: #fc466b;">100</b> TRX.</li>
+                                                <li>Base Profit of <b style="color: #fc466b;">5%</b>.</li>
+                                                <li><b style="color: #fc466b;">1%</b> Bonus for every <b style="color: #fc466b;">1.5Mio</b> Contract Balance. <b style="color: #fc466b;">Max</b> of 15% to ensure contract longevity.</li>
+                                                <li>Platform Fee of only <b style="color: #fc466b;">15%</b>. Our purpose of being is to protect average investors. Not profit from them.</li>
+                                                <li>
+                                                    <b style="color: #fc466b;">Withdrawals - Project Protection from early withdrawals</b>
+                                                    <ul class="vue-list-inner">
+                                                        <li>
+                                                            Contract deducts 10% from your potential profit every withdrawals made before investment matures. This discourages daily withdrawals of investment has not matured. Making Investors
+                                                            realize promised ROI.
+                                                        </li>
+                                                        <li>
+                                                            Example: You invested 100 TRX. Potential Take-Aways (Returns) is 200 TRX. However, you withdraw before it gets to 200 TRX. The system will deduct 10% every withdrawal but will keep
+                                                            your Invested amount secured and untouched.
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <b style="color: #fc466b;">Whale Protection</b>
+                                                    <ul class="vue-list-inner">
+                                                        <li>Maximum Deposit from 1 account can't exceed 10% of the contract balance before 10 000 000. No restrictions before 10 000 000.</li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="au-card chart-percent-card">
+                                        <div class="au-card-inner">
+                                            <h3 class="title-2 tm-b-5">Platform Fee Distribution</h3>
+                                            <div class="row no-gutters">
+                                                <div class="col-xl-6">
+                                                    <div class="chart-note-wrap">
+                                                        <div class="chart-note mr-0 d-block">
+                                                            <span class="dot dot--blue"></span>
+                                                            <span>Network & Development</span>
+                                                        </div>
+                                                        <div class="chart-note mr-0 d-block">
+                                                            <span class="dot dot--red"></span>
+                                                            <span>Services</span>
+                                                        </div>
+                                                        <div class="chart-note mr-0 d-block">
+                                                            <span class="dot dot--orange"></span>
+                                                            <span>Marketing</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-6">
+                                                    <div class="percent-chart">
+                                                        <canvas id="percent-chart"></canvas>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p>Explantions here.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="au-card au-card--no-shadow au-card--no-pad m-b-40">
+                                        <div class="au-card-title" style="background-image: -webkit-linear-gradient(90deg, #3f5efb 0%, #fc466b 100%);">
+                                            <h3><i class="fa fa-bell"></i>Investments</h3>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text"><i class="fa fa-bell" style="color: #fc466b;"></i> To make a deposit, you should install TronLink Chrome extension or use a DApp browser in a TronLink mobile app.</p>
+                                            <br />
+                                            <p class="card-text">Wallet Details:</p>
+                                            <p class="card-text">Wallet Balance:</p>
+
+                                            <form action="" method="post" novalidate="novalidate">
+                                                <div class="form-group">
+                                                    <input id="cc-pament" name="cc-payment" type="text" class="form-control" aria-required="true" aria-invalid="false" value="100.00" />
+                                                    <p class="card-text">Minimum: 10 TRX. Maximum: 0 TRX.</p>
+                                                </div>
+                                            </form>
+                                            <form action="" method="post" novalidate="novalidate">
+                                                <div class="form-group">
+                                                    <input id="cc-pament" name="cc-payment" type="text" class="form-control" aria-required="true" aria-invalid="false" value="Your Referrer" />
+                                                    <p class="card-text">You must be logged in to view referror.</p>
+                                                </div>
+
+                                                <button id="payment-button" type="submit" class="btn btn-lg btn-info btn-block">
+                                                    <i class="fa fa-lock fa-lg"></i>&nbsp;
+                                                    <span id="payment-button-amount">Invest Now</span>
+                                                    <span id="payment-button-sending" style="display: none;">Sending…</span>
+                                                </button>
+                                            </form>
+                                            <div class="card-body au-message__footer">
+                                                <button type="button" class="btn btn-primary"><i class="fa fa-plus-square"></i>&nbsp; 2 TRX / Day</button>
+                                                <button type="button" class="btn btn-secondary"><i class="fa fa-superscript"></i>&nbsp; 200% Max</button>
+                                                <button type="button" class="btn btn-success"><i class="fa fa-gift"></i>&nbsp; 45 Days</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="au-card au-card--no-shadow au-card--no-pad m-b-40">
+                                        <div class="au-card-title" style="background-image: -webkit-linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);">
+                                            <h3><i class="zmdi zmdi-comment-text"></i>My Dashboard</h3>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-6" style="text-align: left;">
+                                                    <label for="cc-exp" class="control-label mb-1">Active Deposits</label>
+                                                </div>
+                                                <div class="col-6" style="text-align: right;">
+                                                    <label for="cc-exp" class="control-label mb-1">Invested</label>
+                                                </div>
+                                            </div>
+                                            <div class="progress mb-3">
+                                                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <p class="card-text">Profits</p>
+                                            <p class="card-text">Daily Profit</p>
+                                            <p class="card-text">Paid Out</p>
+                                            <br />
+                                            <div class="row">
+                                                <div class="col-6" style="text-align: left;">
+                                                    <label for="cc-exp" class="control-label mb-1">Remaining Profit</label>
+                                                </div>
+                                                <div class="col-6" style="text-align: right;">
+                                                    <label for="cc-exp" class="control-label mb-1">Amount</label>
+                                                </div>
+                                            </div>
+                                            <div class="progress mb-3">
+                                                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <p class="card-text">Remaining Profit</p>
+                                            <p class="card-text">Affiliate</p>
+                                            <p class="card-text">Total Amount</p>
+
+                                            <div class="card-body au-message__footer">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <button type="button" class="btn btn-danger">
+                                                            <i class="fa fa-star"></i>&nbsp; Withdraw <br />
+                                                            <small>Min. 1 TRX</small>
+                                                        </button>
+                                                    </div>
+
+                                                    <div class="row">
+                                                        <div class="col-6">
+                                                            <button type="button" class="btn btn-success">
+                                                                <i class="fa fa-bell"></i>&nbsp; Re-Invest <br />
+                                                                <small>Min. 10 TRX</small>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="copyright">
+                                        <p>Copyright © 2020 <a href="https://colorlib.com">Metropolis</a>. All Rights Reserved.SJØNNA Nezalezhnasti Ave, 13 - 28A Minsk, Belarus, 220141 +375 29 319-53-98</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END MAIN CONTENT-->
+                <!-- END PAGE CONTAINER-->
+            </div>
         </div>
 
-    </div>
+        <!-- Jquery JS-->
+        <script src="vendor/jquery-3.2.1.min.js"></script>
+        <!-- Bootstrap JS-->
+        <script src="vendor/bootstrap-4.1/popper.min.js"></script>
+        <script src="vendor/bootstrap-4.1/bootstrap.min.js"></script>
+        <!-- Vendor JS       -->
+        <script src="vendor/slick/slick.min.js"></script>
+        <script src="vendor/wow/wow.min.js"></script>
+        <script src="vendor/animsition/animsition.min.js"></script>
+        <script src="vendor/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+        <script src="vendor/counter-up/jquery.waypoints.min.js"></script>
+        <script src="vendor/counter-up/jquery.counterup.min.js"></script>
+        <script src="vendor/circle-progress/circle-progress.min.js"></script>
+        <script src="vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
+        <script src="vendor/chartjs/Chart.bundle.min.js"></script>
+        <script src="vendor/select2/select2.min.js"></script>
 
-    <!-- Jquery JS-->
-    <script src="vendor/jquery-3.2.1.min.js"></script>
-    <!-- Bootstrap JS-->
-    <script src="vendor/bootstrap-4.1/popper.min.js"></script>
-    <script src="vendor/bootstrap-4.1/bootstrap.min.js"></script>
-    <!-- Vendor JS       -->
-    <script src="vendor/slick/slick.min.js">
-    </script>
-    <script src="vendor/wow/wow.min.js"></script>
-    <script src="vendor/animsition/animsition.min.js"></script>
-    <script src="vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
-    </script>
-    <script src="vendor/counter-up/jquery.waypoints.min.js"></script>
-    <script src="vendor/counter-up/jquery.counterup.min.js">
-    </script>
-    <script src="vendor/circle-progress/circle-progress.min.js"></script>
-    <script src="vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
-    <script src="vendor/chartjs/Chart.bundle.min.js"></script>
-    <script src="vendor/select2/select2.min.js">
-    </script>
-
-    <!-- Main JS-->
-    <script src="js/main.js"></script>
-   
-
-</body>
-
+        <!-- Main JS-->
+        <script src="js/main.js"></script>
+    </body>
 </html>
 <!-- end document-->
