@@ -3230,13 +3230,13 @@ section {
 .overview-box .text h2 {
     font-weight: 300;
     color: #fff;
-    font-size: 36px;
+    font-size: 23px;
     line-height: 1;
     margin-bottom: 5px;
 }
 
 .overview-box .text span {
-    font-size: 18px;
+    font-size: 15px;
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -3246,7 +3246,7 @@ section {
     }
 
     .overview-box .text h2 {
-        font-size: 20px;
+        font-size: 16px;
         margin-bottom: 0;
     }
 
@@ -3257,7 +3257,7 @@ section {
 
 @media (max-width: 991px) {
     .overview-box .text h2 {
-        font-size: 26px;
+        font-size: 25px;
     }
 
     .overview-box .text span {
